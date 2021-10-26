@@ -1,0 +1,71 @@
+/* Globals */
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: #333;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* Styles Sheet */
+
+.container {
+    display: flex;
+
+}
+
+.left-panel {
+    width: 25%;
+    height: 100vh;
+    background-color: violet;
+}
+
+.status {
+    height: 75%;
+    background-color: slateblue;
+}
+
+.links {
+    height: 15%;
+    background-color: springgreen;
+}
+
+.foot {
+    height: 10%;
+    display: flex;
+}
+
+.copyrights {
+    width: 60%;
+    background-color: turquoise;
+}
+
+.lang {
+    width: 40%;
+    background-color: yellow;
+}
+
+.right-panel {
+    width: 75%;
+    height: 100vh;
+    background-color: yellowgreen;
+}
